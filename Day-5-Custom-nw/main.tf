@@ -50,7 +50,7 @@ resource "aws_security_group" "name" {
   vpc_id = aws_vpc.name.id
     name = "Allow_tls"
     tags = {
-      name="custom-SG"
+      Name="custom-SG"
     }
     ingress {
       description = "HTTP"
