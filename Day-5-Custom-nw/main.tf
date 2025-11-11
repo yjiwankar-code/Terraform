@@ -105,3 +105,11 @@ resource "aws_instance" "ec2-private" {
     Name="custom-ec2-private"
   }
 }
+
+//Create EIP
+
+//Create NAT Gateway
+
+//Create Route Table for Private Subnet and Edit Routes
+
+//Associate Private Subnet with Route Table
