@@ -1,0 +1,18 @@
+1. Re-usability
+2. Time saving
+3. Delivary fast
+4. Easy to modify
+5. Get code reference
+6. Easily debugging
+7. Customer happiness
+8. Easily automate and control
+9. Track infrastructure
+
+
+# terraform apply --auto-approve
+# It wil not ask for approval if '--auto-approve" is used
+
+# terraform plan -var-file="dev.tfvars" 
+# terraform apply -var-file="dev.tfvars" 
+# if var file is different than default name like dev.tfvars 
+# instead of terraform.tfvars
