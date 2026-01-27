@@ -25,3 +25,7 @@ resource "aws_subnet" "my_subnet" {
 resource "aws_s3_bucket" "my_bucket" {
   bucket = "yjiwankar-test-bucket-1234567890-7709798512"
 }
+
+
+
+
