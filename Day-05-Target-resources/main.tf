@@ -22,3 +22,6 @@ resource "aws_s3_bucket" "name" {
 
 //We can give multple targest like below 
 //$ terraform apply -target=aws_s3_bucket.name -target=aws_instance.name
+
+
+// try skip resource
